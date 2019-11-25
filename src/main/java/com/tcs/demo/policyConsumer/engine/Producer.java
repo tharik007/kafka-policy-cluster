@@ -12,7 +12,7 @@ import com.tcs.demo.policyConsumer.model.Policy;
 public class Producer {
 
     private static final Logger logger = LoggerFactory.getLogger(Producer.class);
-    private static final String TOPIC = "policy";
+    private static final String TOPIC = "posting";
     
     /*
     @Autowired

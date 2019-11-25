@@ -1,7 +1,4 @@
-spring:
-   jackson:
-     serialization:
-        FAIL_ON_EMPTY_BEANS: false   
+spring:   
    kafka:
      consumer:
         bootstrap-servers: 3.214.16.45:9092

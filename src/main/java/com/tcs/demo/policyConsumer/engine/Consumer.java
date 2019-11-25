@@ -15,7 +15,7 @@ public class Consumer {
 
     private final Logger logger = LoggerFactory.getLogger(Producer.class);
 
-    @KafkaListener(topics = "policy")
+    @KafkaListener(topics = "posting")
     public void consume(String message) throws IOException {
         logger.info(String.format("#### -> Consumed message -> %s", message));
         
