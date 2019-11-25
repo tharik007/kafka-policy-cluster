@@ -1,4 +1,4 @@
-package com.tcs.demo.policyConsumer;
+package com.tc.poc.policy.event;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

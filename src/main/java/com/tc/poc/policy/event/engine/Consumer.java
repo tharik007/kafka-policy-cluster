@@ -1,4 +1,4 @@
-package com.tcs.demo.policyConsumer.engine;
+package com.tc.poc.policy.event.engine;
 
 import java.io.IOException;
 
@@ -8,7 +8,7 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.tcs.demo.policyConsumer.model.Policy;
+import com.tc.poc.policy.event.model.Policy;
 
 @Service
 public class Consumer {

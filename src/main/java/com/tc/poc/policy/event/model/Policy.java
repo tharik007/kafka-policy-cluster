@@ -1,4 +1,4 @@
-package com.tcs.demo.policyConsumer.model;
+package com.tc.poc.policy.event.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

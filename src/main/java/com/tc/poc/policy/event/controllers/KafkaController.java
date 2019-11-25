@@ -1,9 +1,9 @@
-package com.tcs.demo.policyConsumer.controllers;
+package com.tc.poc.policy.event.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.tcs.demo.policyConsumer.engine.Producer;
-import com.tcs.demo.policyConsumer.model.Policy;
+import com.tc.poc.policy.event.engine.Producer;
+import com.tc.poc.policy.event.model.Policy;
 
 import org.springframework.boot.*;
 import org.springframework.web.bind.annotation.PostMapping;
